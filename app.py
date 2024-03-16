@@ -11,8 +11,8 @@ import os
 client=openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
 # Function to send email
 def send_email(candidate_name, file_path):
-    from_email = "project.use.242@gmail.com"  # Your email
-    to_email = "test.purpose.242@gmail.com"  # HR's email
+    from_email = "Your_email@gmail.com"  # Your email
+    to_email = "Hr's_email@gmail.com"  # HR's email
 
     msg = MIMEMultipart()
     msg['From'] = from_email
@@ -33,7 +33,7 @@ def send_email(candidate_name, file_path):
     # Connect to SMTP server and send email
     smtp_server = smtplib.SMTP('smtp.gmail.com', 587)  # SMTP server and port
     smtp_server.starttls()
-    smtp_server.login(from_email, "ameg nfox yvyl audz")  # Your email password
+    smtp_server.login(from_email, "Your_app_password")  # Your email password
     text = msg.as_string()
     smtp_server.sendmail(from_email, to_email, text)
     smtp_server.quit()
