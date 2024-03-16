@@ -1,1 +1,8 @@
-job description: genai,python,sql Fresher
+- Bachelor's degree in Computer Science, Engineering, or related field
+- Proficiency in at least one programming language (e.g., Python, Java, JavaScript)
+- Experience with web development frameworks (e.g., React, Angular, Django)
+- Knowledge of database systems (e.g., SQL, MongoDB)
+- Familiarity with version control systems (e.g., Git)
+- Strong problem-solving and analytical skills
+- Excellent communication and collaboration skills
+- Fresher
